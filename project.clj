@@ -1,6 +1,6 @@
-(defproject dev.weavejester/hashp "0.4.0"
+(defproject net.solovyov/hashp "0.4.0-1"
   :description "A better \"prn\" for debugging"
-  :url "https://github.com/weavejester/hashp"
+  :url "https://github.com/piranha/hashp"
   :license {:name "The MIT License"
             :url "http://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.12.0"]

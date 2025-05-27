@@ -94,15 +94,6 @@ user=> (alter-var-root #'hashp.config/*disable-color* (constantly true))
 true
 ```
 
-Finally, you can change the output writer. By default this is `*err*`,
-which outputs to STDOUT, but you can set this to any other print writer,
-such as `*out*`.
-
-```
-user=> (alter-var-root #'hashp.config/*hashp-output* (constantly *out*))
-#object[java.io.PrintWriter 0x2deddab6 "java.io.PrintWriter@2deddab6"]
-```
-
 [no_color]: https://no-color.org/
 
 ## License

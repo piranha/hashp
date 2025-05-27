@@ -37,7 +37,7 @@
 
 (defn print-log [trace form value]
   (locking lock
-    (binding [*out* config/*hashp-output*]
+    (binding [*out* *err*]
       (println
        (if config/*disable-color*
          (str "#p" (trace-str trace) " "
